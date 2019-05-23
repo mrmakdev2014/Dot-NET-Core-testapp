@@ -1,7 +1,7 @@
 version: "3"
 services:
   dotnet:
-    image: mzain/dotnet 
+    build: ./
     ports:
       - "6060:80"
     container_name: dotnet
