@@ -13,7 +13,7 @@ To build the app not using docker.
 ```cd aspnetapp```
 
 ```dotnet publish -c Release -o out```
-
+test
 ```cd out ```
 
 ```cp -r * ../../```
