@@ -3,5 +3,5 @@ services:
   dotnet:
     build: ./
     ports:
-      - "6070:80"
+      - "6080:80"
     container_name: dotnetsample
