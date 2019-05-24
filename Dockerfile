@@ -8,8 +8,7 @@ RUN dotnet restore
 
 # copy everything else and build app
 WORKDIR /app/aspnetapp
-RUN dotnet publish -c Release -o out
-
+RUN dotnet publish --configuration Release --output out
 
 FROM microsoft/dotnet:2.2-aspnetcore-runtime AS runtime
 WORKDIR /app
